@@ -1,0 +1,351 @@
+1
+
+C:\Users\mynameisTJ>ping  8.8.8.8 /n 5
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=28ms TTL=52
+Reply from 8.8.8.8: bytes=32 time=36ms TTL=52
+Reply from 8.8.8.8: bytes=32 time=25ms TTL=52
+Reply from 8.8.8.8: bytes=32 time=24ms TTL=52
+Reply from 8.8.8.8: bytes=32 time=24ms TTL=52
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 24ms, Maximum = 36ms, Average = 27ms
+
+C:\Users\mynameisTJ>
+
+2
+C:\Users\mynameisTJ>ping  8.8.8.8 /l 250
+
+Pinging 8.8.8.8 with 250 bytes of data:
+Reply from 8.8.8.8: bytes=68 (sent 250) time=29ms TTL=52
+Reply from 8.8.8.8: bytes=68 (sent 250) time=29ms TTL=52
+Reply from 8.8.8.8: bytes=68 (sent 250) time=136ms TTL=52
+Reply from 8.8.8.8: bytes=68 (sent 250) time=144ms TTL=52
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 29ms, Maximum = 144ms, Average = 84ms
+
+C:\Users\mynameisTJ>
+
+3 masuk direktory baru
+E:\>cd Kampus
+
+E:\Kampus>
+
+4. keluar direktrory
+
+E:\Kampus> cd ..
+
+E:\>
+
+5. melihat attribut
+E:\Kampus>attrib
+   SH                E:\Kampus\desktop.ini
+A                    E:\Kampus\JavaApplication15.rar
+A                    E:\Kampus\Semester 3.rar
+A                    E:\Kampus\SISTEM DIGIRAL.rtf
+A                    E:\Kampus\Sistem digital.docx
+A                    E:\Kampus\tugas ADBO teori 6.docx
+A                    E:\Kampus\TUGASAgung.zip
+A                    E:\Kampus\TugasTeoriPd.rar
+
+E:\Kampus>
+
+6. melihat file tertentu
+
+E:\Kampus>assoc .MP4
+.MP4=WMP11.AssocFile.MP4
+
+E:\Kampus>
+
+7. 
+E:\Kampus>assoc | more
+.001=WinRAR
+.386=vxdfile
+.3g2=WMP11.AssocFile.3G2
+.3gp=WMP11.AssocFile.3GP
+.3gp2=WMP11.AssocFile.3G2
+.3gpp=WMP11.AssocFile.3GP
+.aac=WMP11.AssocFile.ADTS
+.accda=Access.ACCDAExtension.15
+.accdb=Access.Application.15
+.accdc=Access.ACCDCFile.15
+.accde=Access.ACCDEFile.15
+.accdr=Access.ACCDRFile.15
+.accdt=Access.ACCDTFile.15
+more.....
+
+8.
+E:\Kampus>Chkdsk
+The type of the file system is NTFS.
+
+WARNING!  /F parameter not specified.
+Running CHKDSK in read-only mode.
+
+Stage 1: Examining basic file system structure ...
+  201984 file records processed.
+File verification completed.
+  46 large file records processed.
+  0 bad file records processed.
+
+Stage 2: Examining file name linkage ...
+  3736 reparse records processed.
+  271924 index entries processed.
+Index verification completed.
+  0 unindexed files scanned.
+  0 unindexed files recovered to lost and found.
+  3736 reparse records processed.
+
+Stage 3: Examining security descriptors ...
+Security descriptor verification completed.
+  34971 data files processed.
+CHKDSK is verifying Usn Journal...
+  343115976 USN bytes processed.
+Usn Journal verification completed.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+ 618358980 KB total disk space.
+ 371855780 KB in 166914 files.
+     69376 KB in 34972 indexes.
+         0 KB in bad sectors.
+    622272 KB in use by the system.
+     65536 KB occupied by the log file.
+ 245811552 KB available on disk.
+
+      4096 bytes in each allocation unit.
+ 154589745 total allocation units on disk.
+  61452888 allocation units available on disk.
+
+E:\Kampus>
+
+9.`merubah tanggal
+E:\Kampus>date
+The current date is: Sun 02/02/2020
+Enter the new date: (mm-dd-yy) 03-02-2020
+
+E:\Kampus>date
+The current date is: Mon 03/02/2020
+Enter the new date: (mm-dd-yy) 02-02-2020
+
+E:\Kampus>
+
+10. melihat tanggal 
+E:\Kampus>date /t
+Sun 02/02/2020
+
+11 bantuan date
+E:\Kampus>date /?
+Displays or sets the date.
+
+DATE [/T | date]
+
+Type DATE without parameters to display the current date setting and
+a prompt for a new one.  Press ENTER to keep the same date.
+
+If Command Extensions are enabled the DATE command supports
+the /T switch which tells the command to just output the
+current date, without prompting for a new date.
+
+
+12
+E:\Kampus>echo
+ECHO is on.
+
+13
+E:\Kampus>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : perpus2.akakom
+
+Ethernet adapter VirtualBox Host-Only Network:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::18f4:4744:d501:7624%24
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Ethernet adapter VirtualBox Host-Only Network #2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::3831:186e:44ac:66ca%17
+   IPv4 Address. . . . . . . . . . . : 192.168.99.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 11:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::f99d:296a:b971:37cb%14
+   IPv4 Address. . . . . . . . . . . : 192.168.10.54
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 192.168.0.1
+
+E:\Kampus>
+
+
+14
+E:\Kampus>ipconfig -a
+
+Error: unrecognized or incomplete command line.
+
+USAGE:
+    ipconfig [/allcompartments] [/? | /all |
+                                 /renew [adapter] | /release [adapter] |
+                                 /renew6 [adapter] | /release6 [adapter] |
+                                 /flushdns | /displaydns | /registerdns |
+                                 /showclassid adapter |
+                                 /setclassid adapter [classid] |
+                                 /showclassid6 adapter |
+                                 /setclassid6 adapter [classid] ]
+
+where
+    adapter             Connection name
+                       (wildcard characters * and ? allowed, see examples)
+
+    Options:
+       /?               Display this help message
+       /all             Display full configuration information.
+       /release         Release the IPv4 address for the specified adapter.
+       /release6        Release the IPv6 address for the specified adapter.
+       /renew           Renew the IPv4 address for the specified adapter.
+       /renew6          Renew the IPv6 address for the specified adapter.
+       /flushdns        Purges the DNS Resolver cache.
+       /registerdns     Refreshes all DHCP leases and re-registers DNS names
+       /displaydns      Display the contents of the DNS Resolver Cache.
+       /showclassid     Displays all the dhcp class IDs allowed for adapter.
+       /setclassid      Modifies the dhcp class id.
+       /showclassid6    Displays all the IPv6 DHCP class IDs allowed for adapter.
+       /setclassid6     Modifies the IPv6 DHCP class id.
+
+
+The default is to display only the IP address, subnet mask and
+default gateway for each adapter bound to TCP/IP.
+
+For Release and Renew, if no adapter name is specified, then the IP address
+leases for all adapters bound to TCP/IP will be released or renewed.
+
+For Setclassid and Setclassid6, if no ClassId is specified, then the ClassId is removed.
+
+Examples:
+    > ipconfig                       ... Show information
+    > ipconfig /all                  ... Show detailed information
+    > ipconfig /renew                ... renew all adapters
+    > ipconfig /renew EL*            ... renew any connection that has its
+                                         name starting with EL
+    > ipconfig /release *Con*        ... release all matching connections,
+                                         eg. "Wired Ethernet Connection 1" or
+                                             "Wired Ethernet Connection 2"
+    > ipconfig /allcompartments      ... Show information about all
+                                         compartments
+    > ipconfig /allcompartments /all ... Show detailed information about all
+                                         compartments
+
+E:\Kampus>
+
+15
+E:\Kampus>pathping /n google.com
+
+Tracing route to google.com [216.239.38.120]
+over a maximum of 30 hops:
+  0  192.168.10.54
+  1  192.168.0.1
+  2  49.128.177.253
+  3  112.78.33.133
+  4  112.78.35.241
+  5  119.2.55.45
+  6  49.128.183.121
+  7  103.28.93.65
+  8  103.28.94.2
+  9  74.125.242.33
+ 10  108.170.237.231
+ 11  216.239.38.120
+
+Computing statistics for 275 seconds...
+            Source to Here   This Node/Link
+Hop  RTT    Lost/Sent = Pct  Lost/Sent = Pct  Address
+  0                                           192.168.10.54
+                                0/ 100 =  0%   |
+  1   14ms     0/ 100 =  0%     0/ 100 =  0%  192.168.0.1
+                                0/ 100 =  0%   |
+  2   10ms     1/ 100 =  1%     1/ 100 =  1%  49.128.177.253
+                                0/ 100 =  0%   |
+  3   10ms     1/ 100 =  1%     1/ 100 =  1%  112.78.33.133
+                                0/ 100 =  0%   |
+  4   13ms     2/ 100 =  2%     2/ 100 =  2%  112.78.35.241
+                                0/ 100 =  0%   |
+  5   23ms     3/ 100 =  3%     3/ 100 =  3%  119.2.55.45
+                                0/ 100 =  0%   |
+  6   19ms     1/ 100 =  1%     1/ 100 =  1%  49.128.183.121
+                                0/ 100 =  0%   |
+  7   26ms     0/ 100 =  0%     0/ 100 =  0%  103.28.93.65
+                                0/ 100 =  0%   |
+  8   39ms     0/ 100 =  0%     0/ 100 =  0%  103.28.94.2
+                                1/ 100 =  1%   |
+  9   44ms     1/ 100 =  1%     0/ 100 =  0%  74.125.242.33
+                                0/ 100 =  0%   |
+ 10  ---     100/ 100 =100%    99/ 100 = 99%  108.170.237.231
+                                0/ 100 =  0%   |
+ 11   56ms     1/ 100 =  1%     0/ 100 =  0%  216.239.38.120
+
+Trace complete.
+
+E:\Kampus>
+
+16
+
+E:\Kampus>ping google.com
+
+Pinging google.com [216.239.38.120] with 32 bytes of data:
+Reply from 216.239.38.120: bytes=32 time=60ms TTL=49
+Reply from 216.239.38.120: bytes=32 time=31ms TTL=49
+Reply from 216.239.38.120: bytes=32 time=34ms TTL=49
+Reply from 216.239.38.120: bytes=32 time=38ms TTL=49
+
+Ping statistics for 216.239.38.120:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 31ms, Maximum = 60ms, Average = 40ms
+
+17
+E:\Kampus>PowerShell.exe -ExecutionPolicy Restricted
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS E:\Kampus>
+
+18
+PS E:\Kampus> print /d:kampus data.txt
+E:\Kampus\data.txt is currently being printed
+PS E:\Kampus>
+
+19 hapus data
+PS E:\Kampus> rd data.txt
+
+20 keluar dari mode powershell
+
+PS E:\Kampus> exit
+
+E:\Kampus>
